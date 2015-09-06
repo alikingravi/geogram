@@ -1,0 +1,88 @@
+/*  ---------------------------------------------------------------------------
+ *  Author     : Ali A. Kingravi
+ *	Website    : www.alikingravi.com
+ *  ---------------------------------------------------------------------------*/
+
+*{margin: 0;padding: 0;}
+/* MAIN STYLES
+-------------------------------------------------------------- */
+html, body {height: 100%;}
+img {max-width: 100%;}
+h1,h1,h2,h3,h4,h5,p{font-family: 'Droid Serif', sans-serif;color: #A2A0A0;}
+h1{font-size: 4em;}
+h2{font-size: 1.6em;}
+hr{border: 1px solid #d9d9d9;}
+label{color: #fff; font-size: 20px;}
+img{padding: 10px;}
+/* Helper Classes
+-------------------------------------------------------------- */
+.red{color: #ff0000;}
+.orange{color: #FF7400;}
+.grey{color: #FFFFFF;}
+.yellow{color: #fcff00;}
+.lime{color: #4eff00;}
+.blue{color: #00fff0;}
+.purple{color: #fd33de;}
+.green{color: #0ca805;}
+.error{color: red;}
+/* ------------------------------------------------------------------------ */
+/* SEARCH BOX */
+/* ------------------------------------------------------------------------ */
+
+#search{
+	width: 100%;
+	height: auto;
+	background-color: orange;
+	background-image: url("../images/wall.png");
+}
+
+.search-box{
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/*padding: 100px 0px 100px 0px;*/
+
+}
+.btn{
+	margin-top: 10px;
+	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+	    -ms-transition: all 0.3s ease;
+	     -o-transition: all 0.3s ease;
+	        transition: all 0.3s ease;
+}
+
+/* ------------------------------------------------------------------------ */
+/* IMAGES BOX */
+/* ------------------------------------------------------------------------ */
+.display-images{
+	max-width: 750px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+/* ------------------------------------------------------------------------ */
+/* FOOTER */
+/* ------------------------------------------------------------------------ */
+
+.footer-box{
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	/*background-color: #cccccc;*/
+	/*background-image: url("../images/tree.png");*/
+	
+}
+.fa-chevron-circle-up{
+	color: black;
+	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+	    -ms-transition: all 0.3s ease;
+	     -o-transition: all 0.3s ease;
+	        transition: all 0.3s ease;
+}
+.fa-chevron-circle-up:hover{color: #FF7400;}
